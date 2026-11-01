@@ -1,0 +1,20 @@
+.DS_Store
+
+# 原始学习资料和加工输出仅保存在本地
+/materials/*
+!/materials/.gitkeep
+/output/*
+!/output/.gitkeep
+
+# 本地凭据与配置
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# 常见脚本缓存和依赖
+__pycache__/
+*.pyc
+.venv/
+node_modules/
